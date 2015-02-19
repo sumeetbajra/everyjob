@@ -1,7 +1,7 @@
-$('#myCarousel').carousel({
+/*$('#myCarousel').carousel({
   interval: 40000
 });
-
+*/
 $('#myCarousel .item').each(function(){
   var next = $(this).next();
   if (!next.length) {

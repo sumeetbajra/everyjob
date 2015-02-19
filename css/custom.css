@@ -181,3 +181,30 @@ Image credits: unsplash.com
 .item:not(.prev) {visibility: visible;}
 .item.right:not(.prev) {visibility: hidden;}
 .rightest{ visibility: visible;}
+
+.category-caption{
+    padding: 10px 0;
+    display: block;
+}
+
+footer{
+  padding: 20px 0;
+  border-top: solid thin #D0D0D0;
+}
+
+.logo{
+  font-size: 26px;
+  color: #F74646;
+  font-family: 'Oleo Script';
+}
+
+.logo:hover{
+  text-decoration: none;
+}
+
+
+
+.navbar .nav > li > a:hover{
+  color: black;
+  text-shadow: none;
+}
