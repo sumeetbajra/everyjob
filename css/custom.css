@@ -202,7 +202,11 @@ footer{
   text-decoration: none;
 }
 
-
+.navbar .nav > li > a, .navbar .nav > li > a:visited{
+  text-shadow: none;
+  color: #9d9d9d;
+  outline: none;
+}
 
 .navbar .nav > li > a:hover{
   color: black;
