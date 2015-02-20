@@ -68,180 +68,91 @@
         <!-- /.container -->
     </nav>
 
+<div class="container page">
 
-    <!-- Page Content -->
-    <div class="container page">
-        <div class="row">
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+		<form role="form">
+			<h2>Please Sign Up <small>It's free and always will be.</small></h2>
+			<hr class="colorgraph">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+                        <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" tabindex="2">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Display Name" tabindex="3">
+			</div>
+			<div class="form-group">
+				<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password" tabindex="6">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4 col-sm-3 col-md-3">
+					<span class="button-checkbox">
+						<button type="button" class="btn" data-color="info" tabindex="7">
+						<i class="state-icon glyphicon glyphicon-unchecked"></i>
+						I Agree</button>
+                        <input type="checkbox" name="t_and_c" id="t_and_c" class="hidden" value="1">
+					</span>
+				</div>
+				<div class="col-xs-8 col-sm-9 col-md-9">
+					 By clicking <strong class="label label-primary">Register</strong>, you agree to the <a href="#" data-toggle="modal" data-target="#t_and_c_m">Terms and Conditions</a> set out by this site, including our Cookie Use.
+				</div>
+			</div>
+			
+			<hr class="colorgraph">
+			<div class="row">
+				<div class="col-xs-12 col-md-6"><input type="submit" value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+				<div class="col-xs-12 col-md-6"><a href="#" class="btn btn-success btn-block btn-lg">Sign In</a></div>
+			</div>
+		</form>
+	</div>
+</div>
+<br><br>
+<!-- Modal -->
+<div class="modal fade" id="t_and_c_m" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h4 class="modal-title" id="myModalLabel">Terms & Conditions</h4>
+			</div>
+			<div class="modal-body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">I Agree</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
 
-            <div class="col-md-8">
-
-                <div class="thumbnail">
-                    <h3 class="service-title">I can write an SEO friendly article in about 3000 words on any topic.</h3>
-                    <hr>
-                    <span>by <a target="_blank" href="http://bootsnipp.com">sumeetbajra</a></span>&nbsp;&nbsp;
-                    <span><i class="fa fa-calendar"></i> 2015-03-02</span>&nbsp;&nbsp;
-                    <span>Category: <a href="#">Creative Writing and Editing</a></span><br><br>
-                    <img class="img-responsive" src="images/services/1.jpg" alt="" height="400">
-                    <div class="caption-full">
-                        <h3>Service Description</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                    </div>
-                    <div class="clear-fix"></div>
-                    <div class="ratings">
-                        <p class="pull-right">3 reviews</p>
-                        <p>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                            4.0 stars
-                        </p>
-                    </div>
-                </div>
-
-                <div class="well">
-
-                    <div class="text-right">
-                        <a class="btn btn-success">Leave a Review</a>
-                    </div>
-
-                    <hr>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                            Anonymous
-                            <span class="pull-right">10 days ago</span>
-                            <p>This product was great in terms of quality. I would definitely buy another!</p>
-                        </div>
-                    </div>
-
-                    <hr>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                            Anonymous
-                            <span class="pull-right">12 days ago</span>
-                            <p>I've alredy ordered another one!</p>
-                        </div>
-                    </div>
-
-                    <hr>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                            Anonymous
-                            <span class="pull-right">15 days ago</span>
-                            <p>I've seen some better than this, but not at this price. I definitely recommend this item.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-4">
-
-
-<div class="panel panel-default">
-   <div class="panel-heading">
-      <h3 class="panel-title">
-         Service Statistics
-      </h3>
-   </div>
-   <div class="panel-body">
-        <div  style="padding: 5px 10px 10px 10px">
-                <div class="service-stat">
-                <h4><font color="green">Sold:</font> 4532 <span class="pull-right"><font color="gray">Queue:</font> 34</span></h4><hr>
-                </div>
-                   <h2 class="pull-left price"><span>Rs</span>4500<span>.00</span></h2>
-                   <div class="list-group pull-right">
-                    <a href="#" class="list-group-item"><i class="fa fa-money"></i> Order</a>
-                    <a href="#" class="list-group-item"><i class="fa fa-cart-arrow-down"></i> Add to Cart</a>
-                </div>
-                <div class="clear-fix"></div>
-            </div>
-   </div>
-   </div>
-              
-            <div class="clear-fix"></div>
-            <div class="service-owner">
-                <div class="media block-update-card">
-                  <a class="pull-left" href="#">
-                    <img class="media-object update-card-MDimentions img-circle" src="http://3.bp.blogspot.com/-IbEOTNtCMyU/TfCAdHaAxEI/AAAAAAAAA8U/EATib38SSAM/s320/joe-mcelderry.jpg" alt="...">
-                </a>
-                <div class="media-body update-card-body">
-                    <h4 class="media-heading owner-name">Manning Hilton</h4>
-                    <div class="social">
-                        <a href="https://www.facebook.com/rem.mcintosh" class="[ social-icon facebook ] animate"><span class="fa fa-facebook"></span></a>
-
-                        <a href="https://twitter.com/Mouse0270" class="[ social-icon twitter ] animate"><span class="fa fa-twitter"></span></a>
-
-                        <a href="https://plus.google.com/u/0/115077481218689845626/posts" class="[ social-icon google-plus ] animate"><span class="fa fa-google-plus"></span></a>
-
-                        <a href="www.linkedin.com/in/remcintosh/" class="[ social-icon linkedin ] animate"><span class="fa fa-linkedin"></span></a>
-                    </div>
-                    <a href="#" class="pull-right">View profile</a>
-                </div>
-            </div>
-            <div class="block-update-card">
-
-              <div class="update-card-body">
-              
-                  <div class="col-sm-12">
-                      <div class="col-sm-6">
-                          <b>Location</b><br>
-                          5th Avenue Street, Oklahoma<br><br>
-                      </div>
-                      <div class="col-sm-6">
-                          <b>Age</b><br>
-                          23 years<br><br>
-                      </div>
-                  </div>
-                  <div class="col-sm-12">
-                      <div class="col-sm-6">
-                          <b>Hobby</b><br>
-                          Singing, Dancing, Music, Travel
-                      </div>
-                      <div class="col-sm-6">
-                          <b>Joined date</b><br>
-                          5th November, 2014
-                      </div>
-                  </div>
-              </div>
-              </div>
-              <div class="block-update-card">
-
-                  <div class="update-card-body">
-                      <h4>About me</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex ligula, scelerisque nec turpis ac, placerat porta magna. Duis tincidunt pharetra turpis in interdum. Donec sem tortor, varius scelerisque enim eget, pharetra sollicitudin velit. Ut lectus felis, consequat non iaculis ut, finibus a purus. Ut eget massa gravida, gravida felis eget, molestie lorem. Aenean porta ligula vel metus sollicitudin blandit. Suspendisse nec nisi non enim sagittis fermentum. Nunc fringilla sem vel feugiat luctus. Integer sit amet molestie tellus. Curabitur pulvinar urna et sem pretium, et cursus arcu feugiat. Sed nibh lorem, vestibulum nec augue at, euismod aliquet arcu. <br><a href="#">Read more...</a></p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-
-      </div>
-
-  </div>
-  <!-- /.container -->
-
- 
   <!-- Footer -->
   
         <footer>
@@ -362,10 +273,10 @@
         </div><!--/copyright-->
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
-<script src="js/custom.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 
