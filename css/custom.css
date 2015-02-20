@@ -198,8 +198,9 @@ footer{
   font-family: 'Oleo Script';
 }
 
-.logo:hover{
+.logo:hover, .navbar-inverse .navbar-brand:hover{
   text-decoration: none;
+  color: #9d9d9d;
 }
 
 .navbar .nav > li > a, .navbar .nav > li > a:visited{
@@ -211,4 +212,25 @@ footer{
 .navbar .nav > li > a:hover{
   color: black;
   text-shadow: none;
+}
+
+.page{
+  margin-top: 69px;
+}
+
+.clear-fix{
+  clear: both;
+}
+
+.thumbnail{
+  padding: 10px;
+}
+
+.list-group{
+  position: relative;
+  top: 15px;
+}
+
+.list-group a{
+  float: left;
 }
